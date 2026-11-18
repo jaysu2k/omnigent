@@ -89,6 +89,9 @@ overrides:
   'markdown-it@>=14.0.0 <15.0.0': 14.3.3
   'proxy-addr@>=2.0.0 <3.0.0': 2.0.8
   'source-map-js@>=1.0.0 <2.0.0': 1.2.2
+  # @pierre/trees pins theming 1.0.0, whose theme peer excludes the theme 2.0.0
+  # that @pierre/diffs uses. 1.0.1 is the release diffs already resolves.
+  '@pierre/theming': 1.0.1
   '@shikijs/core': "catalog:"
   '@shikijs/primitive': "catalog:"
   '@shikijs/engine-javascript': "catalog:"
