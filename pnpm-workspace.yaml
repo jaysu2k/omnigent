@@ -90,8 +90,8 @@ overrides:
   'proxy-addr@>=2.0.0 <3.0.0': 2.0.8
   'source-map-js@>=1.0.0 <2.0.0': 1.2.2
   # @pierre/trees pins theming 1.0.0, whose theme peer excludes the theme 2.0.0
-  # that @pierre/diffs uses. 1.0.1 is the release diffs already resolves.
-  '@pierre/theming': 1.0.1
+  # that @pierre/diffs uses. Scoped to trees so other diffs copies keep theirs.
+  '@pierre/trees>@pierre/theming': 1.0.1
   '@shikijs/core': "catalog:"
   '@shikijs/primitive': "catalog:"
   '@shikijs/engine-javascript': "catalog:"
